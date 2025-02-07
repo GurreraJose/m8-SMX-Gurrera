@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-image: ;
+}
+
+main{
+    background-color: brown;
+    padding: 50px;
+}
+h1{
+    border: yellow solid 50px;
+    padding: 10px;
+}
+h2{
+    border: pink solid 3px dotted;
+}
+ul{
+    border: green solid 5px;
+}
+#datos{
+    border: greenyellow solid 5px;
+    padding: 10px;
+}
+#datos li{
+    padding: 10px;
+    color: blue;
+}
+#descripcion{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+#descripcion h2{
+    color: pink;
+    border: none;
+}
+#contenido{
+    color: white;
+}
+.laquetuquieras{
+    color: white;
+}

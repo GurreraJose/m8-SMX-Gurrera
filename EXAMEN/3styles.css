@@ -1,0 +1,30 @@
+
+.card{
+    display: inline-block;
+    margin: 10px;
+}
+img{
+    width: 100%;
+}
+.main{
+    text-align: center;
+    height: 70vh;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: aqua;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+div{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #14f000;
+    color: #3911eb;
+    font-weight: bold;
+    border-radius: 5px;
+    color: aliceblue;
+}

@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/037/275/504/small_2x/ai-generated-black-silk-drapery-fabric-background-photo.jpg")no-repeat center/cover;
+
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0a500;
+    margin: 20px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-links li a:hover {
+    color: #f0a500;
+    text-align: center;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text-section {
+    flex: 1;
+    max-width: 600px;
+}
+
+.text-section h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.text-section .highlight {
+    color: #f0a500;
+}
+
+.text-section p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0a500;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.join-button:hover {
+    background-color: #e09000;
+    color: rgb(0, 136, 255);
+}
+
+.info-section {
+    flex: 1;
+    max-width: 400px;
+    background-color: #f0a500;
+    padding: 20px;
+    border-radius: 10px;
+    color: #121212;
+}
+
+.info-section h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.info-section ul {
+    padding: 0;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.info-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
